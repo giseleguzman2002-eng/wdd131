@@ -23,11 +23,20 @@ nav {
 	list-style: none;
 	display: flex;
 	flex-wrap: wrap;
-	background-color: #333;
+	background-color: black;
 	align-items: center;
+    text-decoration: none;
 }
 .navigation li {
 	flex: 1 1 auto;
+	font-weight: 700;
+	display: block;
+	color: #eee;
+	padding: 0.75rem;
+	text-decoration: none;
+	text-align: center;
+}
+.navigation a {
 	font-weight: 700;
 	display: block;
 	color: #eee;
