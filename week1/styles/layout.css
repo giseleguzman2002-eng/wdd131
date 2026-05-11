@@ -8,6 +8,7 @@ header {
   background: rgb(56, 54, 54);;
   padding: 2rem;
   grid-column: 1 / 4;
+  color: white;
 }
 
 .left-sidebar {
@@ -44,10 +45,7 @@ nav {
 	text-decoration: none;
 	text-align: center;
 }
-.navigation a:hover {
-	text-decoration: underline;
-	text-decoration-color: yellow;
-}
+
 
 .right-sidebar {
   background: white;
