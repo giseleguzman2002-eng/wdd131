@@ -13,6 +13,7 @@ header {
 
 .left-sidebar {
   background: lightgrey;
+  display: grid;
   grid-column: 1 / 2;
 }
 
@@ -30,7 +31,7 @@ nav {
     text-decoration: none;
 }
 .navigation li {
-	flex: 1 1 auto;
+	flex: 1 1 1 1 auto;
 	
 }
 .navigation a {
@@ -45,6 +46,7 @@ nav {
 
 .right-sidebar {
   background: white;
+  display: grid;
   grid-column: 3 / 4;
 }
 
