@@ -36,11 +36,6 @@ nav {
 	text-align: center;
 }
 
-.navigation a:hover {
-	text-decoration: underline;
-	text-decoration-color: yellow;
-}
-
 .right-sidebar {
   background: white;
   grid-column: 3 / 4;
