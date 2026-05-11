@@ -15,7 +15,10 @@ header {
   grid-column: 1 / 2;
 }
 
-
+nav {
+	margin: 0 auto 2rem;
+	max-width: 90vw;
+}
 
 .right-sidebar {
   background: white;
