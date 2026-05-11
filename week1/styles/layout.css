@@ -15,6 +15,7 @@ header {
   background: lightgrey;
   display: grid;
   grid-column: 1 / 2;
+  padding: 5rem;
 }
 
 nav {
