@@ -5,13 +5,13 @@ body {
 }
 
 header {
-  background: lightpink;
+  background: grey;
   padding: 2rem;
   grid-column: 1 / 4;
 }
 
 .left-sidebar {
-  background: lightblue;
+  background: lightgrey;
   grid-column: 1 / 2;
 }
 
@@ -21,12 +21,12 @@ main {
 }
 
 .right-sidebar {
-  background: yellow;
+  background: white;
   grid-column: 3 / 4;
 }
 
 footer {
-  background: wheat;
+  background: grey;
   padding: 2rem;
   text-align: center;
   grid-column: 1 / 4;
