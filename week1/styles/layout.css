@@ -26,6 +26,7 @@ nav {
 	flex-wrap: wrap;
 	background-color: black;
 	align-items: center;
+    text-align: center;
     text-decoration: none;
 }
 .navigation li {
