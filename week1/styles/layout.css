@@ -5,7 +5,7 @@ body {
 }
 
 header {
-  background: grey;
+  background: rgb(56, 54, 54);;
   padding: 2rem;
   grid-column: 1 / 4;
 }
@@ -15,10 +15,7 @@ header {
   grid-column: 1 / 2;
 }
 
-main {
-  background: coral;
-  grid-column: 2 / 3;
-}
+
 
 .right-sidebar {
   background: white;
@@ -26,7 +23,7 @@ main {
 }
 
 footer {
-  background: grey;
+  background: rgb(56, 54, 54);
   padding: 2rem;
   text-align: center;
   grid-column: 1 / 4;
