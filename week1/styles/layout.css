@@ -15,7 +15,7 @@ header {
   background: lightgrey;
   display: grid;
   grid-column: 1 / 2;
-  padding: 5rem;
+  
 }
 
 nav {
@@ -29,7 +29,6 @@ nav {
 	flex-wrap: wrap;
 	background-color: black;
 	align-items: center;
-    text-align: center;
     text-decoration: none;
 }
 .navigation li {
@@ -51,7 +50,7 @@ nav {
   background: white;
   display: grid;
   grid-column: 3 / 4;
-  padding: 10rem;
+ 
 }
 
 footer {
