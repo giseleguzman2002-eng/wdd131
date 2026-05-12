@@ -73,7 +73,7 @@ footer {
   grid-column: 1 / 4;
 }
 
-.left-sidebar, .right-sidebar {
+.left-sidebar {
   margin: 0;
   padding: 13rem 30rem;
   text-align: right;
