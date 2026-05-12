@@ -62,7 +62,7 @@ nav ul {
   background: white;
   display: grid;
   grid-column: 3 / 4;
-  padding: 11rem 10rem;
+  padding: 11rem 7rem;
 
  
 }
@@ -78,7 +78,7 @@ footer {
 .left-sidebar,
 .right-sidebar {
   margin: 0;
-  padding: 10rem;
+  padding: 10rem 7rem;
   
 }
 
