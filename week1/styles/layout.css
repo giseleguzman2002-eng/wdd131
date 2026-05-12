@@ -48,15 +48,6 @@ nav ul {
     padding:0;
     font-weight: bold;
 }
-.navigation a {
-	font-weight: 700;
-	display: block;
-	color: #eee;
-	padding: 8px;
-	text-decoration: none;
-	text-align: center;
-}
-
 
 .right-sidebar {
   background: white;
