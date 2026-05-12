@@ -54,6 +54,7 @@ nav ul {
   display: grid;
   grid-column: 3 / 4;
   padding: 6rem;
+  text-align: right;
 }
 
 .navigation a {
@@ -75,9 +76,7 @@ footer {
 .left-sidebar {
   margin: 0;
   padding: 13rem 30rem;
-  right:2px;
-  bottom:2px;
-  
+  text-align: right;
   
 }
 
