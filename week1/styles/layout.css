@@ -25,9 +25,9 @@ header {
 nav {
     background: black;
 	width: 100%;
-    padding: 1rem 25rem;
-    display: flex;
-    justify-content: space-around;
+  padding: 1rem 25rem;
+  display: flex;
+  justify-content: space-around;
     
 }
 nav ul {
