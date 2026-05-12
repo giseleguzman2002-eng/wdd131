@@ -24,8 +24,16 @@ header {
 
 nav {
 	margin: 0 auto 2rem;
-	max-width: 90vw;
+	width: 100%;
     
+}
+nav ul {
+    margin:0;
+    padding:0;
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    list-style:none;    
 }
 .navigation {
 	list-style: none;
@@ -35,10 +43,10 @@ nav {
 	align-items: center;
     text-decoration: none;
 }
-.navigation ul {
-	flex: 1 1 auto;
-
-	
+.navigation li {
+	color: white;
+    padding:20px;
+    font-weight: bold;
 }
 .navigation a {
 	font-weight: 700;
