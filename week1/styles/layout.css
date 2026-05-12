@@ -35,7 +35,7 @@ nav {
 	align-items: center;
     text-decoration: none;
 }
-.navigation li {
+.navigation ul {
 	flex: 1 1 auto;
 
 	
