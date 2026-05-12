@@ -30,9 +30,9 @@ nav {
 nav ul {
     margin:0;
     padding:0;
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
     justify-content: space-around;
-    align-items:center;
     list-style:none;    
 }
 .navigation {
