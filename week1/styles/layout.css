@@ -26,14 +26,14 @@ nav {
     background: black;
 	width: 100%;
     padding: 1rem 25rem;
+    display: flex;
     justify-content: space-around;
     
 }
 nav ul {
     margin:0;
     padding: 0;
-    display: flex;
-    justify-content: space-around;
+    
     align-items: center;
     height: 80px;
     text-align: center;
