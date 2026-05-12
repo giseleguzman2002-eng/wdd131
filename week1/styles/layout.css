@@ -54,6 +54,8 @@ nav {
   background: white;
   display: grid;
   grid-column: 3 / 4;
+  padding: 11rem;
+
  
 }
 
@@ -67,7 +69,6 @@ footer {
 
 .left-sidebar,
 .right-sidebar {
-  padding: 11rem;
   margin: 0;
   
 }
