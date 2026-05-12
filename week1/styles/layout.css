@@ -37,7 +37,6 @@ nav ul {
 }
 .navigation {
 	list-style: none;
-	display: flex;
 	flex-wrap: wrap;
 	background-color: black;
 	align-items: center;
