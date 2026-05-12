@@ -33,7 +33,8 @@ nav ul {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     text-align: center;
-    list-style:none;    
+    list-style:none;
+    width: 100%;    
 }
 .navigation {
 	list-style: none;
