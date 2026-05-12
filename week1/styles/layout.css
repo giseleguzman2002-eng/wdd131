@@ -53,7 +53,7 @@ nav ul {
   background: white;
   display: grid;
   grid-column: 3 / 4;
-  padding: 13rem 15rem;
+  padding: 13rem;
 }
 
 .navigation a {
