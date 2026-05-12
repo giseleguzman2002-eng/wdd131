@@ -43,7 +43,7 @@ nav ul {
 }
 .navigation li {
 	color: white;
-    padding:1px;
+    padding:0;
     font-weight: bold;
 }
 .navigation a {
