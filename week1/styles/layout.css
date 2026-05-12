@@ -75,7 +75,8 @@ footer {
 .left-sidebar {
   margin: 0;
   padding: 13rem 30rem;
-  text-align: right;
+  right:20px;
+  bottom:20px;
   
   
 }
