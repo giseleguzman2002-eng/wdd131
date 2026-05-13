@@ -15,23 +15,13 @@ header {
   color: white;
 }
 
-.left-sidebar {
-  background: lightgrey;
-  display: grid;
-  grid-column: 1 / 2;
-  
-}
-
 nav {
   
   background: black;
 	width: 100%;
   padding: 0rem  25rem;
-  
-  
     
 }
-
 nav ul {
     margin:0;
     padding: 0;
@@ -82,5 +72,9 @@ footer {
   margin: 0;
   padding: 13rem 30rem;
   text-align: right;
+  background: lightgrey;
+  display: grid;
+  grid-column: 1 / 2;
+  
   
 }
