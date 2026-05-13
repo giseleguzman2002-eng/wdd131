@@ -42,6 +42,8 @@ nav ul {
     justify-content: space-around;
     
     align-items: center;
+    height: 80px;
+    text-align: center;
     list-style:none;
     width: 100%;    
 }
