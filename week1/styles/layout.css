@@ -31,11 +31,7 @@ nav {
   
     
 }
-nav a {
-  color: white;
-  text-decoration: none;
-  padding: 10px;
-}
+
 nav ul {
     margin:0;
     padding: 0;
