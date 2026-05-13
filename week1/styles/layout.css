@@ -79,8 +79,9 @@ footer {
   
 }
 .left-sidebar {
-  display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
-  padding: 90px;
+  margin: 0;
+  padding: 13rem 30rem;
+  text-align: right;
+  bottom: 4px;
+  
 }
