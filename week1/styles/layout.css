@@ -76,11 +76,9 @@ nav ul {
 footer {
   background: rgb(48, 45, 45);
   color: white;
-
-  margin: 0;
-  padding: 13rem 30rem;
-  text-align: right;
-  bottom: 4px;
+  padding: 2rem;
+  text-align: center;
+  grid-column: 1/4;
   
 }
 .left-sidebar {
