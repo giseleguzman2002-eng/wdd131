@@ -58,7 +58,7 @@ nav ul {
 	color: #eee;
 	padding: 8px;
 	text-decoration: none;
-	text-align: center;
+	text-align: space-around;
 }
 footer {
   background: rgb(48, 45, 45);
