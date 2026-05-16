@@ -34,7 +34,7 @@ nav {
     justify-content: space-around;
     align-items: center;
     background-color: #111;
-    flex-wrap: wrap;
+    padding: 1rem;
 }
 
 nav a {
@@ -43,6 +43,10 @@ nav a {
     padding: 0.5rem 1rem;
     transition: 0.3s;
     border-radius: 5px;
+}
+nav a:hover {
+    background-color: white;
+    color: #111;
 }
 
 /* MAIN */
