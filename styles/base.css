@@ -16,9 +16,10 @@ header {
     background-color: #0b2a5b;
     color: white;
     text-align: center;
+    padding: 2rem;
 }
 
-#course-title {
+.course-title {
     display: block;
     padding: 1rem;
     font-size: 1.5rem;
