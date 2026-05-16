@@ -90,6 +90,7 @@ h1 {
     grid-template-columns: 2fr 1fr;
     gap: 1rem;
     padding: 0.4rem;
+    padding-bottom: 5px;
 }
 
 .about-me img {
