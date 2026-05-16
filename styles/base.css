@@ -19,7 +19,7 @@ header {
     padding: 18px 0;
 }
 
-.course-title {
+#course-title {
     display: block;
     padding: 1rem;
     font-size: 1.5rem;
