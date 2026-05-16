@@ -128,11 +128,11 @@ figcaption {
 /* RESOURCES */
 
 .card ul {
-    padding: 1rem;
+    padding: 10px;
 }
 
 .card li {
-    margin-bottom: 20px;
+    margin-bottom: 1rem;
 }
 
 .card a {
