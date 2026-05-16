@@ -17,7 +17,6 @@ header {
     color: white;
     text-align: center;
     padding: 10px 0;
-    padding-bottom: 15px;
 }
 
 .course-title {
@@ -35,6 +34,7 @@ nav {
     align-items: center;
     background-color: #111;
     padding: 1rem;
+    margin-bottom: 10px;
 }
 
 nav a {
