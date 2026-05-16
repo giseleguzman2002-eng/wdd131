@@ -85,14 +85,14 @@ h1 {
 
 /* ABOUT */
 
-.about-content {
+.about-me {
     display: grid;
     grid-template-columns: 2fr 1fr;
     gap: 1rem;
     padding: 1rem;
 }
 
-.about-content img {
+.about-me img {
     width: 100%;
     border-radius: 8px;
 }
