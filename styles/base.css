@@ -17,6 +17,7 @@ header {
     color: white;
     text-align: center;
     padding: 10px 0;
+    padding-bottom: 15px;
 }
 
 .course-title {
@@ -24,7 +25,6 @@ header {
     padding: 1rem;
     font-size: 1.5rem;
     font-weight: 700;
-    margin-bottom: 15px;
 }
 
 /* NAV */
