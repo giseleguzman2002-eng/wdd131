@@ -24,6 +24,7 @@ nav {
     display: flex;
     justify-content: flex-end;
     gap: 20px;
+    justify-self: end;
 
 }
 
