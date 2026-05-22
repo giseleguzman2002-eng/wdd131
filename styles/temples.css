@@ -20,7 +20,7 @@ header {
     grid-template-columns: auto 1fr;
     align-items: center;
 }
-.nav {
+.nav a {
     justify-self: end;
     padding-right: 20px;
 }
