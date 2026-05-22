@@ -10,7 +10,7 @@ lastModified.textContent = `Last Modified: ${document.lastModified}`;
 // Hamburger menu
 
 const menuButton = document.querySelector("#menuButton");
-const navigation = document.querySelector(".navigation");
+const navigation = document.querySelector(".navigation-hide");
 
 navigation.classList.add("hide");
 

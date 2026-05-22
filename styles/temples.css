@@ -38,12 +38,12 @@ header h1 {
 
 /* NAVIGATION */
 
-.navigation {
+.navigation-hide {
     display: flex;
     flex-direction: column;
 }
 
-.navigation a {
+.navigation-hide a {
     color: white;
     text-decoration: none;
     padding: 1rem;
@@ -51,7 +51,7 @@ header h1 {
     transition: background-color 0.3s;
 }
 
-.navigation a:hover {
+.navigation-hide a:hover {
     background-color: #7d3c98;
 }
 .hide {
