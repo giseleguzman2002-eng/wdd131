@@ -24,12 +24,13 @@ header {
 .nav {
     justify-self: end;
     padding-right: 20px;
+
 }
 
 header h1 {
     justify-self: start;
     margin-left: 10px;
-    
+    width: fit-content;
 }
 
 /* HAMBURGER */
