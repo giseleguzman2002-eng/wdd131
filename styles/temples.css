@@ -21,7 +21,7 @@ header {
     align-items: center;
     width: 100%;
 }
-.nav {
+nav {
     justify-self: end;
     padding-right: 20px;
 
