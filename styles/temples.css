@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f5f5f5;
+    color: #222;
+}
+
+/* HEADER */
+
+header {
+    background-color: #5b2c6f;
+    color: white;
+    padding: 1rem;
+}
+
+header h1 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+/* HAMBURGER */
+
+#menuButton {
+    display: block;
+    margin: 0 auto 1rem;
+    padding: .5rem 1rem;
+    font-size: 1.5rem;
+    border: none;
+    background-color: white;
+    color: #5b2c6f;
+    cursor: pointer;
+}
+
+/* NAVIGATION */
+
+.navigation {
+    display: flex;
+    flex-direction: column;
+}
+
+.navigation a {
+    color: white;
+    text-decoration: none;
+    padding: 1rem;
+    text-align: center;
+    transition: background-color 0.3s;
+}
+
+.navigation a:hover {
+    background-color: #7d3c98;
+}
+
+/* HIDE MENU */
+
+.hide {
+    display: none;
+}
+
+/* MAIN */
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+main h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+/* GALLERY */
+
+.gallery {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+}
+
+figure {
+    background-color: white;
+    padding: 1rem;
+    border-radius: 10px;
+    text-align: center;
+}
+
+figure img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+figcaption {
+    margin-top: .5rem;
+    font-weight: bold;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: #5b2c6f;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}
