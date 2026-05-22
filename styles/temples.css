@@ -17,7 +17,7 @@ header {
     color: white;
     padding: 1rem;
     display: grid;
-    grid-template-columns: 2fr auto;
+    grid-template-columns: 5fr auto;
 }
 
 header h1 {
