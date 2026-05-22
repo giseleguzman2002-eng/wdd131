@@ -19,6 +19,9 @@ header {
     display: grid;
     grid-template-columns: auto 1fr;
 }
+.nav {
+    justify-self: end;
+}
 
 header h1 {
     text-align: center;
