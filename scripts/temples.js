@@ -9,19 +9,19 @@ lastModified.textContent = `Last Modified: ${document.lastModified}`;
 
 // Hamburger menu
 
-const menuButton = document.querySelector("#menuButton");
+const menubutton = document.querySelector("#menubutton");
 const navigation = document.querySelector(".navigation");
 
 navigation.classList.add("hide");
 
-menuButton.addEventListener("click", () => {
+menubutton.addEventListener("click", () => {
 
     navigation.classList.toggle("hide");
 
     if (navigation.classList.contains("hide")) {
-        menuButton.textContent = "☰";
+        menubutton.textContent = "☰";
     } else {
-        menuButton.textContent = "X";
+        menubutton.textContent = "X";
     }
 
 })
