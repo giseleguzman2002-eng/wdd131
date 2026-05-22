@@ -98,18 +98,6 @@ figure img {
     object-fit: cover;
 }
 
-/* COMPUTADORA */
-@media screen and (min-width: 768px) {
-
-    .gallery img {
-        height: 350px;
-    }
-
-figcaption {
-    margin-top: .5rem;
-    font-weight: bold;
-}
-}
 
 /* FOOTER */
 
