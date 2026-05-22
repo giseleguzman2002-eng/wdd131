@@ -21,7 +21,8 @@ header {
     width: 100%;
 }
 nav {
-    justify-self: end;
+    display: flex;
+    justify-content: flex-end;
     padding-right: 20px;
 
 }
