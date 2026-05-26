@@ -23,7 +23,7 @@ main {
 }
 
 h2 {
-	color: navy;
+	color: rgb(54, 54, 56);
 	text-align: left;
 }
 
@@ -33,7 +33,7 @@ article p {
 
 .callout {
 	color: #777;
-	background-color: #702963;
+	background-color: #7e797d;
     padding: 1rem;
 }
 
