@@ -28,7 +28,6 @@ h2 {
 	color: rgb(54, 54, 56);
 	text-align: left;
     grid-column: 1/3;
-    grid-gap: 1rem;
 }
 
 article p {
@@ -41,7 +40,6 @@ article p {
 	background-color: #7e797d;
     padding: 1rem;
     color: white;
-    grid-column: 1/3;
 }
 
 footer {
