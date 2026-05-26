@@ -20,7 +20,7 @@ h1 {
 
 main {
 	display: grid;
-    grid-template-columns: 200px fff1fr;
+    grid-template-columns: 200px 1fr;
 }
 
 h2 {
