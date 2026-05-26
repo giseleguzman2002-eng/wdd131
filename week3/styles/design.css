@@ -32,7 +32,8 @@ h2 {
 
 article p {
 	text-align: justify;
-    color: #181818
+    color: #181818;
+    padding: 1rem;
 }
 
 .callout {
