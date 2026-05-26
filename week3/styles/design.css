@@ -29,13 +29,17 @@ h2 {
 
 article p {
 	text-align: justify;
-    color: #eee
+    background-color: #181818
 }
 
 .callout {
 	color: #777;
 	background-color: #7e797d;
     padding: 1rem;
+}
+.callout p {
+    margin: 0;
+    background-color: white;
 }
 
 footer {
