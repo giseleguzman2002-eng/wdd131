@@ -20,7 +20,7 @@ h1 {
 
 main {
 	display: grid;
-    grid-template-columns: 1.5fr 30g0px;
+    grid-template-columns: 1.5fr 300px;
     grid-column: 1/3;
 }
 
