@@ -50,3 +50,45 @@ footer{
     text-align:center;
     padding:1rem;
 }
+
+
+
+
+@media screen and (min-width: 768px){
+
+main{
+    position:relative;
+}
+
+.data{
+    position:absolute;
+    top:60px;
+    left:30px;
+
+    background:white;
+    box-shadow:var(--shadow);
+
+    width:280px;
+    text-align:left;
+}
+
+.weather{
+    position:absolute;
+    right:30px;
+    bottom:60px;
+
+    background:white;
+    box-shadow:var(--shadow);
+
+    width:250px;
+}
+
+.weather-icon{
+    display:none;
+}
+
+
+.weather h2::after{
+    content:" ⛅";
+}
+}
