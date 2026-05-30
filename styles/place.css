@@ -65,7 +65,8 @@ main{
     top:60px;
     left:30px;
 
-    background:rgb(25, 128, 64);
+    background:white;
+    background-color: var(--green);
     box-shadow:var(--shadow);
 
     width:280px;
