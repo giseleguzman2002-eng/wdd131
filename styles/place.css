@@ -1,5 +1,5 @@
 :root{
-    --red:#b1920a;
+    --yellow:#b1920a;
     --green:#166939;
     --white:#ffffff;
     --shadow:0 0 15px rgba(0,0,0,.25);
@@ -16,7 +16,7 @@ body{
 }
 
 header{
-    background:var(--red);
+    background:var(--yellow);
     color:white;
     text-align:center;
     padding:1rem;
@@ -45,7 +45,7 @@ picture img{
 }
 
 footer{
-    background:var(--red);
+    background:var(--yellow);
     color:white;
     text-align:center;
     padding:1rem;
@@ -88,7 +88,5 @@ main{
 }
 
 
-.weather h2::after{
-    content:" ⛅";
-}
+
 }
