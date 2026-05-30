@@ -85,10 +85,11 @@ main{
     right:30px;
     bottom:60px;
 
-    background:white;
+    background:rgba(255,255,255,0.8);
     box-shadow:var(--shadow);
 
     width:250px;
+
 }
 .weather h2{
     background-color:var(--green);
