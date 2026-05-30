@@ -90,6 +90,15 @@ main{
 
     width:250px;
 }
+.weather h2{
+    background-color:var(--green);
+    color:white;
+    padding: 5px;
+    margin: 0;
+    position: relative;
+    left: -10px;
+    width: 80%;
+}
 
 .weather-icon{
     display:none;
