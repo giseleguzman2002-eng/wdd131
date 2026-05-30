@@ -65,7 +65,7 @@ main{
     top:60px;
     left:30px;
 
-    background:white;
+    background:rgb(25, 128, 64);
     box-shadow:var(--shadow);
 
     width:280px;
@@ -86,7 +86,9 @@ main{
 .weather-icon{
     display:none;
 }
-
+.weather h2::after{
+    content:" ⛅";
+}
 
 
 }
