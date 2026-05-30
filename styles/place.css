@@ -66,13 +66,20 @@ main{
     left:30px;
 
     background:white;
-    background-color: var(--green);
     box-shadow:var(--shadow);
 
     width:280px;
     text-align:left;
 }
-
+.data h2{
+    background-color:var(--green);
+    color:white;
+    padding:10px;
+    margin: 0;
+    position: relative;
+    left: -15px;
+    width: 80%;
+}
 .weather{
     position:absolute;
     right:30px;
