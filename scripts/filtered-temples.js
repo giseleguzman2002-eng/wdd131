@@ -98,12 +98,10 @@ menuButton.addEventListener("click", () => {
         imageUrl:
         "https://churchofjesuschristtemples.org/assets/img/temples/_temp/024-Santiago-Chile-Temple.jpg"
     }
-    // Add more temple objects here...
     ];
 
 const gallery = document.querySelector(".gallery");
 
-// Función para mostrar templos
 function displayTemples(filteredTemples) {
     gallery.innerHTML = "";
 
@@ -137,10 +135,8 @@ function displayTemples(filteredTemples) {
     });
 }
 
-// Mostrar todos los templos al cargar
 displayTemples(temples);
 
-// Filtros
 document.querySelector("#home").addEventListener("click", () => {
     displayTemples(temples);
 });
