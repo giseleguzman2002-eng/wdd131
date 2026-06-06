@@ -88,7 +88,7 @@ menuButton.addEventListener("click", () => {
         dedicated: "2015, May, 17",
         area: 34369,
         imageUrl:
-        "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/cordoba-argentina/400x250/cordoba-argentina-temple-lds-273999-wallpaper.jpg"
+        "https://churchofjesuschristtemples.org/assets/img/temples/cordoba-argentina-temple/cordoba-argentina-temple-11093-main.jpg"
     },
     {
         templeName: "Santiago Chile",
