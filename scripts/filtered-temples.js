@@ -80,7 +80,7 @@ menuButton.addEventListener("click", () => {
         dedicated: "1986, January, 17",
         area: 30659,
         imageUrl:
-        "https://churchofjesuschristtemples.org/assets/img/temples/buenos-aires-argentina-temple/buenos-aires-argentina-temple-40695-main.jpg"
+        "https://churchofjesuschristtemples.org/assets/img/temples/buenos-aires-argentina-temple/buenos-aires-argentina-temple-4087-main.jpg"
     },
     {
         templeName: "Cordoba Argentina",
@@ -96,7 +96,7 @@ menuButton.addEventListener("click", () => {
         dedicated: "1983, September, 15",
         area: 20053,
         imageUrl:
-        "https://churchofjesuschristtemples.org/assets/img/temples/santiago-chile-temple/santiago-chile-temple-11283-main.jpg"
+        "https://churchofjesuschristtemples.org/assets/img/temples/_temp/024-Santiago-Chile-Temple.jpg"
     }
     // Add more temple objects here...
     ];
