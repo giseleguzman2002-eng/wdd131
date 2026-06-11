@@ -33,8 +33,10 @@ header {
 }
 
 .header-image {
-    width: 120px;
-    height: auto;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: transparent;
 }
 
 nav ul {
