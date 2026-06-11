@@ -36,7 +36,7 @@ header {
     width: 150px;
     height: 150px;
     border-radius: 50%;
-    background: #b26db9;
+    background: var(--primary-color);
 }
 
 nav ul {
