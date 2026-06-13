@@ -29,9 +29,9 @@ form {
     border-radius: 10px;
 }
 legend, label  {
-    font-weight: bold;
     gap: .5rem;
     display: flex;
+    align-items: center;
 }
 
 input,
