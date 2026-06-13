@@ -30,7 +30,7 @@ form {
 }
 legend, label  {
     font-weight: bold;
-    gap: .2rem;
+    gap: .5rem;
     display: flex;
 }
 
