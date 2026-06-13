@@ -30,6 +30,7 @@ form {
 }
 legend, legend  {
     font-weight: bold;
+    gap: .2rem;
 }
 
 input,
