@@ -50,7 +50,7 @@ fieldset {
 input[type="radio"],
 input[type="checkbox"] {
     width: auto;
-    margin-right: .5rem;
+    margin-right: .2rem;
 }
 
 input[type="submit"] {
