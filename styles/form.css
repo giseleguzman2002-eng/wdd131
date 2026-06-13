@@ -31,6 +31,7 @@ form {
 legend, label  {
     font-weight: bold;
     gap: .2rem;
+    display: inline-flex;
 }
 
 input,
