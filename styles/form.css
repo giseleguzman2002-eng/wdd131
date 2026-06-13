@@ -28,9 +28,10 @@ form {
     padding: 1.5rem;
     border-radius: 10px;
 }
-
-label,
 legend {
+    font-weight: bold;
+}
+label {
     font-weight: bold;
     display: flex;
     align-items: center;
