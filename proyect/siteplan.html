@@ -7,6 +7,9 @@
     <meta name="author" content="Gisele Guzman">
     <meta name="description" content="This is the web design for my professional and social makeup website. It will feature great designs and ways to provide personalized service.">
     <link rel="stylesheet" href="styles/siteplan.css">
+    <script src="scripts/siteplan.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
 
 </head>
 <body>
@@ -14,8 +17,9 @@
         <div class="top-header">
             <img src="images/nephi.png" alt="Site Plan" class="header-image">
             <nav>
+                <button id="menuButton">☰</button>
                 <ul>
-                    <li><a href="index.html">Home</a></li>
+                    <li><a href="siteplan.html">Home</a></li>
                     <li><a href="services.html">Services</a></li>
                     <li><a href="gallery.html">Gallery</a></li>
                 </ul>
@@ -25,6 +29,18 @@
     
     </header>
     <main>
+        <section class="hero">
+            <img src="images/make.webp"alt="Professional Makeup Service"loading="lazy">
+            <div class="hero-text">
+
+                <h2>Professional Makeup for Every Special Occasion</h2>
+
+                <p>Personalized makeup services for weddings,
+                quinceañeras, graduations, birthdays,
+                and social events.</p>
+                </div>
+        </section>
+
         <section>
             <h2> GAH Make Up</h2>
             <p><strong>GAH Make Up</strong></p>
@@ -33,6 +49,55 @@
         <section>
             <h2>Purpose</h2>
             <p>GAH Make up offers personalized makeup services for professional and social events, including weddings, quinceañeras, dances, and all types of celebrations. We'll make you look radiant with guaranteed authenticity and glamour. This service is offered at your home.</p>
+        </section>
+
+        <section>
+            <h2>Featured Services</h2>
+
+            <div class="services-preview">
+
+                <article class="service-card">
+
+                    <h3>Wedding Makeup</h3>
+
+                    <p>
+                        Elegant and long-lasting makeup designed
+                        for one of the most important days
+                        of your life.
+                    </p>
+                    <img src="images/make2.webp" alt="Makeup Service" loading="lazy">
+                    <img src="images/make3.webp" alt="Makeup Service" loading="lazy">
+                    <img src="images/make4.webp" alt="Makeup Service" loading="lazy">
+
+                </article>
+
+                <article class="service-card">
+
+                    <h3>Quinceañera Makeup</h3>
+
+                    <p>
+                        Glamorous looks for unforgettable
+                        celebrations.
+                    </p>
+                    <img src="images/quince1.webp" alt="Makeup Service" loading="lazy">
+                    <img src="images/quince2.webp" alt="Makeup Service" loading="lazy">
+                    <img src="images/quince3.webp" alt="Makeup Service" loading="lazy">
+
+                </article>
+
+                <article class="service-card">
+
+                    <h3>Social Event Makeup</h3>
+
+                    <p>
+                        Makeup services for birthdays,
+                        graduations and special occasions.
+                    </p>
+                    <img src="images/social1.webp" alt="Makeup Service" loading="lazy">
+                    <img src="images/socal2.webp" alt="Makeup Service" loading="lazy">
+                    <img src="images/social3.webp" alt="Makeup Service" loading="lazy">
+                </article>
+            </div>
         </section>
         <section>
             <h2>Scenarios</h2>
@@ -47,10 +112,76 @@
                 </li>
             </ul>
         </section>
+        <section>
+            <h2>Website Visits</h2>
+            <p id="visitCount"></p>
+        </section>
+
+        <section class="information-form">
+
+            <h2>Request More Information</h2>
+
+            <form id="infoForm">
+
+                <label for="fullname">Full Name</label>
+                <input type="text"id="fullname"required>
+
+                <label for="email">Email Address</label>
+                <input type="email"id="email"required>
+
+                <label for="eventType">Event Type</label>
+                <select
+                    id="eventType"required>
+
+                    <option value="">
+                        Select an Option
+                    </option>
+
+                    <option value="Wedding">
+                        Wedding
+                    </option>
+
+                    <option value="Quinceañera">
+                        Quinceañera
+                    </option>
+
+                    <option value="Graduation">
+                        Graduation
+                    </option>
+
+                    <option value="Birthday">
+                        Birthday
+                    </option>
+
+                    <option value="Other">
+                        Other
+                    </option>
+
+                </select>
+
+                <label for="message">
+                    Additional Information
+                </label>
+
+                <textarea
+                    id="message"
+                    rows="4"></textarea>
+
+                <button type="submit">
+                    Send Request
+                </button>
+
+            </form>
+            <p id="confirmationMessage"></p>
     </main>
+    </section>
     <footer>
         <p>&copy; <span id="year"></span> GAH Make Up</p>
         <p id="lastModified"></p>
+        <p>
+            <a href="references.html">
+                References</a>
+    </p>
     </footer>
     
 </body>
