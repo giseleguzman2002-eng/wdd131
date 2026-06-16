@@ -4,24 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GAH Make Up | Services</title>
-
+    <title>GAH Make Up|Services</title>
     <meta name="author" content="Gisele Guzman">
-
-    <meta name="description"
-        content="Professional makeup services for weddings, quinceañeras, graduations, birthdays, and social events.">
-
+    <meta name="description"content="Professional makeup services for weddings, quinceañeras, graduations, birthdays, and social events.">
     <link rel="stylesheet" href="styles/siteplan.css">
-
-    <script src="scripts/main.js" defer></script>
-
+    <script src="scripts/siteplan.js" defer></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
-    <link
-        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Poppins:wght@400;600;700&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Poppins:wght@400;600;700&display=swap"rel="stylesheet">
 </head>
 
 <body>
@@ -30,34 +20,24 @@
 
         <div class="top-header">
 
-            <img src="images/logo.webp" alt="GAH Make Up Logo" class="header-image">
+            <img src="images/nephi.png" alt="GAH Make Up Logo" class="header-image">
 
             <nav>
-
                 <button id="menuButton">☰</button>
-
                 <ul>
-
-                    <li><a href="index.html">Home</a></li>
-
+                    <li><a href="siteplan.html">Home</a></li>
                     <li><a href="services.html">Services</a></li>
-
                     <li><a href="gallery.html">Gallery</a></li>
-
                 </ul>
-
             </nav>
-
         </div>
-
         <h1>GAH Make Up</h1>
-
     </header>
 
     <main>
+        <img src="images/service.webp" alt="Makeup " class="header-image">
 
         <section>
-
             <h2>Our Professional Services</h2>
 
             <p>
@@ -81,32 +61,38 @@
             <p>
                 Explore our most requested makeup services.
             </p>
+            <figure>
+                <img src="images/make2.webp" alt="Makeup Serv" loading="lazy">
+                <figcaption>SOCIAL</figcaption>
+            </figure>
 
-            <div id="servicesContainer"></div>
-            </div>
+            <figure>
+                <img src="images/quince1.webp" alt="Makeup Serv" loading="lazy">
+                <figcaption>QUINCEAÑERA</figcaption>
+            </figure>
+
+            <figure>
+                <img src="images/make2.webp" alt="Makeup Serv" loading="lazy">
+                <figcaption>PROFESSIONAL</figcaption>
+            </figure>
+
+            <figure>
+                <img src="images/others.webp" alt="Makeup Serv" loading="lazy">
+                <figcaption> AND OTHERS</figcaption>
+            </figure>
 
         </section>
 
         <section>
-
             <h2>What Is Included?</h2>
-
             <ul>
-
                 <li>Personalized consultation</li>
-
                 <li>Professional makeup products</li>
-
                 <li>Skin preparation before application</li>
-
                 <li>Customized makeup design</li>
-
                 <li>Long-lasting makeup techniques</li>
-
                 <li>Home service available</li>
-
             </ul>
-
         </section>
 
         <section>
@@ -157,7 +143,6 @@
             <h2>Frequently Requested Services</h2>
 
             <ol>
-
                 <li>Wedding Makeup</li>
 
                 <li>Quinceañera Makeup</li>
@@ -167,24 +152,71 @@
                 <li>Birthday Makeup</li>
 
                 <li>Special Event Makeup</li>
-
             </ol>
-
         </section>
+        <section class="information-form">
 
+            <h2>Request More Information</h2>
+
+            <form id="infoForm">
+
+                <label for="fullname">Full Name</label>
+                <input type="text"id="fullname"required>
+
+                <label for="email">Email Address</label>
+                <input type="email"id="email"required>
+
+                <label for="eventType">Event Type</label>
+                <select
+                    id="eventType"required>
+
+                    <option value="">
+                        Select an Option
+                    </option>
+
+                    <option value="Wedding">
+                        Wedding
+                    </option>
+
+                    <option value="Quinceañera">
+                        Quinceañera
+                    </option>
+
+                    <option value="Graduation">
+                        Graduation
+                    </option>
+
+                    <option value="Birthday">
+                        Birthday
+                    </option>
+
+                    <option value="Other">
+                        Other
+                    </option>
+
+                </select>
+
+                <label for="message">
+                    Additional Information
+                </label>
+
+                <textarea
+                    id="message"
+                    rows="4"></textarea>
+
+                <button type="submit">
+                    Send Request
+                </button>
+
+            </form>
+            <p id="confirmationMessage"></p>
+        </section>
     </main>
-
     <footer>
-
-        <p>
-            &copy; <span id="year"></span> GAH Make Up
-        </p>
-
+        <p>&copy; <span id="year"></span> GAH Make Up</p>
         <p id="lastModified"></p>
 
-        <p>
-            <a href="references.html">References</a>
-        </p>
+        <p><a href="references.html">References</a></p>
 
     </footer>
 
