@@ -234,6 +234,11 @@ footer a {
     overflow: hidden;
     border-radius: 12px;
 }
+.hero-image {
+    width: 100%;
+    height: 80vh;
+    display: block;
+}
 
 
 /* Capa oscura para que el texto se vea mejor */
