@@ -85,6 +85,7 @@ h2 {
     font-family: 'Poppins', sans-serif;
     color: var(--primary-color);
     margin-bottom: 1rem;
+    text-align: center;
 }
 
 h3 {
@@ -94,6 +95,9 @@ h3 {
 
 p {
     margin-bottom: .8rem;
+    text-align: center;
+    max-width: 750px;
+    margin: 0 auto;
 }
 
 ul {
@@ -146,11 +150,14 @@ footer {
     color: white;
     text-align: center;
     padding: 1rem;
+    font-weight: 600;
+    text-decoration: none;
 }
 
-footer p {
-    margin: .3rem 0;
+footer a:hover {
+    color: #fdf2c5;
 }
+
 
 /* RESPONSIVE DESIGN */
 
@@ -201,7 +208,7 @@ footer p {
 
 .gallery-grid img {
     width: 100%;
-    height: 320px;   /* tamaño mediano */
+    height: 320px;   
     object-fit: cover;
     display: block;
 }
@@ -214,27 +221,24 @@ footer p {
     color: var(--primary-color);
     font-size: 1.1rem;
     letter-spacing: 1px;
+
 }
 
-/* ---------- CLIENT FAVORITES ---------- */
+.main-image {
+    display: block;
+    width: 100%;
+    max-width: 850px;
+    height: 350px;
+    object-fit: cover;
 
-.client-favorites {
-    text-align: center;
+    margin: 1rem auto 1.5rem auto;
+
+    border-radius: 12px;
+
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
 }
 
-.client-favorites p {
-    max-width: 700px;
-    margin: 0 auto;
-}
 
-/* ---------- FOOTER LINKS ---------- */
 
-footer a {
-    color: white;
-    text-decoration: none;
-    font-weight: 600;
-}
 
-footer a:hover {
-    color: #fdf2c5;
-}
+
