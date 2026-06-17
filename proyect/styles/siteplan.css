@@ -156,7 +156,10 @@ footer {
 
 footer a:hover {
     color: #fdf2c5;
+}
+footer a {
     text-decoration: none;
+   
 }
 
 
@@ -225,18 +228,49 @@ footer a:hover {
 
 }
 
-.main-image {
-    display: block;
-    width: 100%;
-    max-width: 850px;
-    height: 350px;
-    object-fit: cover;
-
-    margin: 1rem auto 1.5rem auto;
-
+.hero-gallery {
+    position: relative;
+    margin-bottom: 2rem;
+    overflow: hidden;
     border-radius: 12px;
+}
 
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+
+/* Capa oscura para que el texto se vea mejor */
+.hero-gallery::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.35);
+}
+
+.hero-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+
+    text-align: center;
+
+    color: white;
+
+    z-index: 1;
+
+    width: 80%;
+}
+
+.hero-content h2 {
+    color: white;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.hero-content p {
+    font-size: 1.2rem;
+    max-width: 700px;
+    margin: 0 auto;
 }
 
 
