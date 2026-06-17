@@ -228,33 +228,39 @@ footer a {
 
 }
 
-
-.hero-content img {
-  display: block;
-  width: 100%;
-  height: auto;
+.hero-gallery {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    padding: 0;
 }
 
+.main-image {
+    width: 100%;
+    height: 550px;
+    object-fit: cover;
+    display: block;
+}
 
-/* Capa oscura para que el texto se vea mejor */
-.hero-gallery::after {
+/* Oscurece un poco la imagen para que el texto resalte */
+.hero-gallery::before {
     content: "";
     position: absolute;
     inset: 0;
-    background: rgba(0, 0, 0, 0.35);
+    background: rgba(0, 0, 0, 0.45);
+    z-index: 1;
 }
 
 .hero-content {
+    position: absolute;
     top: 50%;
     left: 50%;
-
     transform: translate(-50%, -50%);
 
+    z-index: 2;
+
     text-align: center;
-
     color: white;
-
-    z-index: 1;
 
     width: 80%;
 }
@@ -263,16 +269,39 @@ footer a {
     color: white;
     font-size: 3rem;
     margin-bottom: 1rem;
-    font-family: 'Poppins', sans-serif;
 }
 
 .hero-content p {
-    font-size: 1.2rem;
+    color: white;
+    font-size: 1.1rem;
     max-width: 700px;
-    margin: 0 auto;
+    margin: 0.8rem auto;
 }
 
+.photo-credit {
+    font-size: 0.9rem;
+}
 
+.photo-credit a {
+    color: #fdf2c5;
+    text-decoration: none;
+}
 
+.photo-credit a:hover {
+    text-decoration: underline;
+}
 
+@media (max-width: 768px) {
 
+    .main-image {
+        height: 400px;
+    }
+
+    .hero-content h2 {
+        font-size: 2rem;
+    }
+
+    .hero-content p {
+        font-size: 1rem;
+    }
+}
