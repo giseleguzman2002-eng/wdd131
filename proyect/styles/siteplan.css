@@ -156,6 +156,7 @@ footer {
 
 footer a:hover {
     color: #fdf2c5;
+    text-decoration: none;
 }
 
 
