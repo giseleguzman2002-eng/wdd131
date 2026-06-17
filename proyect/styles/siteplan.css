@@ -228,18 +228,20 @@ footer a {
 
 }
 
+
 .hero-gallery {
     position: relative;
     margin-bottom: 2rem;
     overflow: hidden;
     border-radius: 12px;
 }
+
 .hero-image {
     width: 100%;
-    height: 80vh;
+    height: 500px;
+    object-fit: cover;
     display: block;
 }
-
 
 /* Capa oscura para que el texto se vea mejor */
 .hero-gallery::after {
