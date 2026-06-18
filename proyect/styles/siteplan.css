@@ -369,7 +369,7 @@ footer a {
 
 @media (max-width: 768px) {
 
-    .hero-services .header-image {
+    .hero-services  {
         height: 400px;
     }
 
