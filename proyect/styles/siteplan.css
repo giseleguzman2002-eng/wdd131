@@ -672,8 +672,8 @@ footer a {
 .service-card p {
     text-align: left;
     margin-bottom: 2rem;
-    padding-left: 0.5rem;
-    line-height: 1.7;
+    padding-left: -1rem;
+    line-height: 2;
     margin-top: 2rem;
 }
 
