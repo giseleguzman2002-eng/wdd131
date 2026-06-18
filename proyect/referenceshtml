@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Gisele Guzman">
+    <meta name="description" content="References used in the Beauty by Gisele website project">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>References | Beauty by Gisele</title>
+
+    <link rel="stylesheet" href="styles/siteplan.css">
+</head>
+<body>
+
+<header>
+    <div class="top-header">
+        <img src="images/logo.webp" alt="Beauty by Gisele logo" class="header-image">
+    </div>
+
+    <h1>References</h1>
+</header>
+
+<main>
+
+    <section>
+        <h2>Image Sources</h2>
+
+        <ul>
+            <li>Pexels. Professional beauty, makeup, hairstyle, and portrait photography used throughout the website. Available at: https://www.pexels.com/</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Fonts</h2>
+
+        <ul>
+            <li>Google Fonts – Poppins. Available at: https://fonts.google.com/specimen/Poppins</li>
+            <li>Google Fonts – Open Sans. Available at: https://fonts.google.com/specimen/Open+Sans</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Development Resources</h2>
+
+        <ul>
+            <li>WDD 131: Dynamic Web Fundamentals course materials.</li>
+            <li>MDN Web Docs. HTML, CSS, and JavaScript documentation. Available at: https://developer.mozilla.org/</li>
+            <li>GitHub Pages Documentation. Available at: https://pages.github.com/</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Content Attribution</h2>
+
+        <p>
+            All website text, service descriptions, and informational content
+            were created specifically for the Beauty by Gisele website project.
+        </p>
+    </section>
+
+</main>
+
+<footer>
+    <p>&copy; 2026 Beauty by Gisele | All Rights Reserved</p>
+
+    <p>
+        <a href="index.html">Home</a> |
+        <a href="gallery.html">Gallery</a> |
+        <a href="services.html">Services</a>
+    </p>
+</footer>
+
+</body>
+</html>
