@@ -306,6 +306,16 @@ footer a {
     }
 }
 
+.gallery-info {
+    text-align: center;
+}
+
+.gallery-info p {
+    font-size: 1.1rem;
+    color: var(--primary-color);
+    font-weight: 600;
+}
+
 /*** SERVICES PAGE */
 
  .hero-services {
@@ -436,6 +446,15 @@ footer a {
     font-weight: 600;
     letter-spacing: 1px;
 }
+section ol {
+    padding-left: 2.5rem;
+    margin-top: 1rem;
+}
+
+section ol li {
+    margin-bottom: 0.8rem;
+    line-height: 1.6;
+}
 
 /* Responsive */
 
@@ -449,6 +468,8 @@ footer a {
         height: 250px;
     }
 }
+
+
 
 /* ---------- INFORMATION FORM ---------- */
 
@@ -665,7 +686,7 @@ footer a {
 
 .service-card h3 {
     text-align: left;
-    margin-top: 1rem;
+    margin-top: 1.5rem;
     margin-bottom: 1.5rem;
     padding-left: 0.5rem;
 
