@@ -1,6 +1,6 @@
-// ==========================
-// FOOTER
-// ==========================
+// ======================
+// FOOTER INFORMATION
+// ======================
 
 const year = document.querySelector("#year");
 
@@ -14,80 +14,96 @@ if (lastModified) {
     lastModified.textContent = `Last Modified: ${document.lastModified}`;
 }
 
-
-// ==========================
+// ======================
 // HAMBURGER MENU
-// ==========================
+// ======================
 
 const menuButton = document.querySelector("#menuButton");
 const navMenu = document.querySelector("nav ul");
 
 if (menuButton && navMenu) {
-
     menuButton.addEventListener("click", () => {
         navMenu.classList.toggle("open");
     });
-
 }
 
-
-// ==========================
+// ======================
 // VISIT COUNTER
-// ==========================
+// LOCAL STORAGE
+// ======================
 
-let visits = Number(localStorage.getItem("visits")) || 0;
+let visits = Number(localStorage.getItem("gahVisits")) || 0;
 
 visits++;
 
-localStorage.setItem("visits", visits);
+localStorage.setItem("gahVisits", visits);
 
 const visitCount = document.querySelector("#visitCount");
 
 if (visitCount) {
-
     visitCount.textContent =
-        `You have visited this site ${visits} times.`;
-
+        `You have visited GAH Make Up ${visits} times.`;
 }
 
+// ======================
+// DYNAMIC SERVICES LIST
+// ARRAY + FOREACH
+// ======================
 
-// ==========================
-// SERVICES ARRAY
-// ==========================
+const dynamicServices = document.querySelector("#dynamicServices");
 
 const services = [
-
     "Wedding Makeup",
     "Quinceañera Makeup",
     "Graduation Makeup",
     "Birthday Makeup",
     "Special Event Makeup"
-
 ];
 
-const dynamicServices =
-    document.querySelector("#dynamicServices");
-
 if (dynamicServices) {
-
     services.forEach(service => {
-
         const li = document.createElement("li");
-
         li.textContent = service;
-
         dynamicServices.appendChild(li);
+    });
+}
+
+// ======================
+// GALLERY COUNTER
+// ======================
+
+const galleryImages = document.querySelectorAll(".gallery-grid img");
+
+const galleryCount = document.querySelector("#galleryCount");
+
+if (galleryCount) {
+    galleryCount.textContent =
+        `Gallery Images: ${galleryImages.length}`;
+}
+
+// ======================
+// GALLERY INTERACTION
+// ======================
+
+galleryImages.forEach(image => {
+
+    image.addEventListener("click", () => {
+
+        const caption = image.nextElementSibling.textContent;
+
+        alert(`Selected Style: ${caption}`);
 
     });
 
-}
+});
 
-
-// ==========================
-// FORM
-// ==========================
+// ======================
+// FORM SUBMISSION
+// OBJECT + LOCAL STORAGE
+// ======================
 
 const infoForm = document.querySelector("#infoForm");
+
 const confirmationMessage =
     document.querySelector("#confirmationMessage");
 
@@ -110,60 +126,22 @@ if (infoForm) {
             document.querySelector("#message").value;
 
         const request = {
-
             fullname,
             email,
             eventType,
             message
-
         };
 
         localStorage.setItem(
-            "lastRequest",
+            "gahRequest",
             JSON.stringify(request)
         );
 
-        confirmationMessage.innerHTML =
-            `Thank you ${fullname}! Your request for ${eventType} makeup has been submitted successfully.`;
+        confirmationMessage.textContent =
+            `Thank you ${fullname}! Your ${eventType} request has been submitted successfully.`;
 
         infoForm.reset();
 
     });
 
 }
-
-
-// ==========================
-// GALLERY COUNTER
-// ==========================
-
-const galleryImages =
-    document.querySelectorAll(".gallery-grid img");
-
-const galleryCount =
-    document.querySelector("#galleryCount");
-
-if (galleryCount) {
-
-    galleryCount.textContent =
-        `This gallery contains ${galleryImages.length} makeup inspiration photos.`;
-
-}
-
-
-// ==========================
-// GALLERY INTERACTION
-// ==========================
-
-galleryImages.forEach(image => {
-
-    image.addEventListener("click", () => {
-
-        const caption =
-            image.nextElementSibling.textContent;
-
-        alert(`Selected style: ${caption}`);
-
-    });
-
-});
