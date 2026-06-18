@@ -626,6 +626,7 @@ footer a {
     grid-template-columns: 1fr 1fr;
     gap: 1.5rem;
     margin-bottom: 1.5rem;
+    margin-top: 2rem;
 }
 
 .about-grid section {
@@ -639,5 +640,26 @@ footer a {
     .about-grid {
         grid-template-columns: 1fr;
     }
+}
+
+/* Imágenes dentro de cada servicio */
+
+.serv-images {
+    display: flex;
+    gap: 0.5rem;
+    margin-top: 1rem;
+}
+
+.serv-images img {
+    width: 33.33%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 8px;
+
+    transition: transform 0.3s ease;
+}
+
+.serv-images img:hover {
+    transform: scale(1.05);
 }
 
