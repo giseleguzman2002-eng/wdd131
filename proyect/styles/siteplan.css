@@ -652,7 +652,7 @@ footer a {
 
 .serv-images img {
     width: 33.33%;
-    height: 180px;
+    height: 400px;
     object-fit: cover;
     border-radius: 8px;
 
@@ -661,5 +661,18 @@ footer a {
 
 .serv-images img:hover {
     transform: scale(1.05);
+}
+
+.service-card h3 {
+    text-align: left;
+    margin-bottom: 1rem;
+    padding-left: 0.5rem;
+}
+
+.service-card p {
+    text-align: left;
+    margin-bottom: 2rem;
+    padding-left: 0.5rem;
+    line-height: 1.7;
 }
 
