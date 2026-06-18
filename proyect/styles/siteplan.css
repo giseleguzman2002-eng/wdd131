@@ -352,8 +352,8 @@ footer a {
 }
 
 .hero-page h2 {
-    color: white;
-    font-size: 3rem;
+    color: rgb(255, 243, 243);
+    font-size: 2rem;
     margin-bottom: 1rem;
     text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
 }
@@ -384,3 +384,67 @@ footer a {
         font-size: 1rem;
     }
 }
+
+/*  SERVICES  */
+
+.services-gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+
+.services-gallery figure {
+    position: relative;
+    overflow: hidden;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,.15);
+    cursor: pointer;
+}
+
+.services-gallery img {
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+    display: block;
+
+    transition: transform 0.4s ease;
+}
+
+/* Animación */
+
+.services-gallery figure:hover img {
+    transform: scale(1.08);
+}
+
+.services-gallery figcaption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+    width: 100%;
+
+    background: rgba(0,0,0,.55);
+
+    color: white;
+
+    text-align: center;
+
+    padding: 1rem;
+
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+/* Responsive */
+
+@media (max-width: 768px) {
+
+    .services-gallery {
+        grid-template-columns: 1fr;
+    }
+
+    .services-gallery img {
+        height: 250px;
+    }
